@@ -1,5 +1,5 @@
-# Skullstack
-Short description and motivation.
+# 💀 Skullstack 💀
+Create beatiful marketing sites.
 
 ## Usage
 How to use my plugin.
