@@ -1,5 +1,5 @@
 # 💀 Skullstack 💀
-Create beatiful marketing sites inspired by [Black Ops]: https://blackops.nyc
+Create beatiful marketing sites inspired by [Black Ops](https://blackops.nyc)
 
 ## Installation
 Add this line to your application's Gemfile:
