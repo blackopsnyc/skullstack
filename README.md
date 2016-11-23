@@ -1,8 +1,5 @@
 # 💀 Skullstack 💀
-Create beatiful marketing sites.
-
-## Usage
-How to use my plugin.
+Create beatiful marketing sites inspired by [Black Ops]: https://blackops.nyc
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -21,8 +18,14 @@ Or install it yourself as:
 $ gem install skullstack
 ```
 
-## Contributing
-Contribution directions go here.
+## Configuration
+Change `application.css` to `application.scss`
+
+Replace the file contents with:
+
+```ruby
+@import 'skullstack';
+```
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
