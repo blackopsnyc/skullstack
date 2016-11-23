@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Skullstack::VERSION
   s.authors     = ["Matthew Black"]
   s.email       = ["m@madebyblack.com"]
-  s.homepage    = "http://www.madebyblack.com"
-  s.summary     = "Summary of Skullstack."
-  s.description = "Description of Skullstack."
+  s.homepage    = "http://www.blackops.nyc"
+  s.summary     = "Create beatiful marketing sites."
+  s.description = "Create beatiful marketing sites."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
