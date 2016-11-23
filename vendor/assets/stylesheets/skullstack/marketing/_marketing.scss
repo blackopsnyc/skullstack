@@ -9,4 +9,6 @@ body{
   font-size: 14px;
   background-color: $background-color;
   color: $text-color;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
 }
