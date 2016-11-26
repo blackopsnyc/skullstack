@@ -55,6 +55,18 @@ $h1-font-sizes: (
   large : 36px
 );
 
+//
+//
+// H1 Hero Sizes
+//
+//
+$h1-hero-font-sizes: (
+  null : 32px,
+  small : 32px,
+  medium : 48px,
+  large : 60px
+);
+
 h1 {
   @include font-size($h1-font-sizes);
 }

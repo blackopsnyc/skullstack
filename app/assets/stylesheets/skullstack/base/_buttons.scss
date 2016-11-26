@@ -1,0 +1,13 @@
+.btn{
+  &.btn-primary{
+    background-color: $primary; border-color: $primary;
+    &:hover{
+      background-color: darken($primary, 10%); border-color: darken($primary, 10%);
+    }
+  }
+  &.btn-lg{
+    padding: 0.75rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+}
