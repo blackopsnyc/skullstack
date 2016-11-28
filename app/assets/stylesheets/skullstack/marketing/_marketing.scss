@@ -1,5 +1,3 @@
-@import 'sections';
-
 body{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -11,3 +9,5 @@ body{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
 }
+
+@import 'sections';
