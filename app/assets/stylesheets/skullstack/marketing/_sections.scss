@@ -13,7 +13,6 @@ section{
   // Types of Sections
   &.hero{
     h1{
-      // @include font-size($h1-hero-font-sizes);
       line-height: 1.5em;
     }
   }
