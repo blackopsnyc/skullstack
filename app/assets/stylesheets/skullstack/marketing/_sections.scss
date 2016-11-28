@@ -3,30 +3,26 @@ section{
   min-height: 75vh;
   padding: 10px;
 
-  .row{
-    height:100%;
-    &.center{
-      text-align: center;
-    }
-  }
+  .row{min-height: 75vh;}
 
   // Types of Sections
   &.hero{
     h1{
       line-height: 1.5em;
+      margin: 0;
+      @include font-size($h1-hero-font-sizes);
     }
   }
 
   // Size
-  &.half{height: 50vh;}
-  &.full{height: 100vh;}
+  &.half{min-height: 50vh; .row{min-height: 50vh;}}
+  &.full{min-height: 100vh; .row{min-height: 100vh;}}
 
   // Colors
   &.blue{background-color: $blue; color: $white;}
   &.black{background-color: $black; color: $white;}
+  &.green{background-color: $green; color: $white;}
+  &.purple{background-color: $purple; color: $white;}
 
   // Inside Elements
-  .container{
-    height: 100%;
-  }
 }

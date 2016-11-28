@@ -49,11 +49,16 @@ $breakpoints: (
 //
 //
 $h1-font-sizes: (
-  null : 28px,
-  small : 31px,
-  medium : 33px,
-  large : 36px
+  null : 30px,
+  small : 30px,
+  medium : 35px,
+  large : 40px
 );
+
+h1 {
+  @include font-size($h1-font-sizes);
+}
+
 
 //
 //
@@ -61,14 +66,21 @@ $h1-font-sizes: (
 //
 //
 $h1-hero-font-sizes: (
-  null : 32px,
-  small : 32px,
+  null : 36px,
+  small : 36px,
   medium : 48px,
   large : 60px
 );
 
-h1 {
-  @include font-size($h1-font-sizes);
+$h2-font-sizes: (
+  null : 24px,
+  small :24px,
+  medium : 27px,
+  large : 30px
+);
+
+h2 {
+  @include font-size($h2-font-sizes);
 }
 
 //
