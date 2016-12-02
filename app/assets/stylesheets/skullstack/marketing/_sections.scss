@@ -9,7 +9,7 @@ section{
   &.hero{
     h1{
       line-height: 1.5em;
-      margin: 0;
+      margin: 25px 0;
       @include font-size($h1-hero-font-sizes);
     }
   }
